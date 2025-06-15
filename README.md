@@ -1,4 +1,4 @@
-WORKSHOP_TITLE
+Shiny for Python
 ================
 
 ### posit::conf(2025)
