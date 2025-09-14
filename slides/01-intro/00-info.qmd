@@ -1,0 +1,21 @@
+---
+title: "Welcome to posit::conf(2025)"
+format:
+  revealjs:
+    footer: "posit::conf(2025) <https://github.com/posit-conf-2025/shiny-py>"
+    slide-number: true
+    show-slide-number: all
+    smaller: true
+---
+
+## conf
+
+## wifi
+
+## bathrooms
+
+## other rooms
+
+## your instructors
+
+## installation
