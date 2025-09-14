@@ -6,6 +6,7 @@ on:
       - "website/**"
       - ".github/workflows/publish.yml"
       - "requirements.txt"
+  workflow_dispatch:
 
 name: Render and Publish
 
