@@ -1,3 +1,13 @@
+venv
+.env
+.quarto
+_site
+docs
+*.quarto_ipynb
+temp
+
+.DS_Store
+
 .Rproj.user
 .Rhistory
 .RData

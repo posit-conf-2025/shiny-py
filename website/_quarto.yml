@@ -1,0 +1,78 @@
+project:
+  type: website
+  preview:
+    port: 9708
+    watch-inputs: true
+  render:
+    - "./*.qmd"
+    - "slides/*/*.qmd"
+  resources:
+    - slides
+
+website:
+  title: "Intro to Shiny"
+  navbar:
+    left:
+      - href: setup.qmd
+
+    right:
+      - icon: github
+        href: https://github.com/posit-conf-2025/shiny-py
+
+  page-footer: |
+    <a href="https://github.com/posit-conf-2025/shiny-py">posit-conf-2025/shiny-py</a>
+
+  repo-url: https://github.com/posit-conf-2025/shiny-py
+  repo-subdir: website
+  repo-actions: [edit, issue]
+
+  sidebar:
+    - style: docked
+      type: light
+      background: light
+      foreground: dark
+      contents:
+        - section: "Introduction"
+          contents:
+            - href: 01-01-welcome.qmd
+            - href: 01-02-intro-shiny.qmd
+            - href: 01-03-first-app.qmd
+        - section: "Building a Shiny Application"
+          contents:
+            - href: 02-01-reactivity.qmd
+            - href: 02-02-dashboard.qmd
+            - href: 02-03-publish.qmd
+        - section: "Working with LLMs"
+          contents:
+            - href: 03-01-welcome.qmd
+            - href: 03-02-anatomy.qmd
+            - href: 03-03-first.qmd
+            - href: 03-04-chatbot.qmd
+        - section: "Modules and Testing"
+          contents:
+            - href: 04-01-modules.qmd
+            - href: 04-02-testing.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+    toc-expand: 2
+
+jupyter: python3
+
+editor:
+  render-on-save: true
+
+
+brand: _brand.yml
+
+filters:
+  - shinylive
+  - quarto
+  - line-highlight
+  - countdown
+  - embedio
