@@ -4,7 +4,9 @@ preview:
 
 .PHONY: setup-py
 setup-py:
-	uv sync
+	uv venv venv
+	source venv/bin/activate && uv pip install -r requirements.txt
+
 
 .PHONY: setup-quarto
 setup-quarto:
@@ -21,7 +23,7 @@ setup:
 
 .PHONY: clean
 clean:
-	rm -rf venv .venv
+	rm -rf venv
 
 .PHONY: publish
 publish:
