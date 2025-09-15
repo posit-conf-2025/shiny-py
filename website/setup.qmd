@@ -6,10 +6,10 @@ title: Setup
 
 Pick **one** of the following ways to set up your Python environment.
 
-Here is the `pyproject.toml` you will need to set up the environment.
+Here is the `requirements.txt` you will need to set up the environment.
 
 ```bash
-{{< include /../pyproject.toml >}}
+{{< include /../requirements.txt >}}
 ```
 
 ### conda
@@ -17,20 +17,21 @@ Here is the `pyproject.toml` you will need to set up the environment.
 ```bash
 conda create -n shiny python=3.12
 conda activate shiny
-pip install .
+pip install -r requirements.txt
 ```
 
 ### python + venv
 
 ```bash
 python -m venv venv
-source venv/bin/activate && pip install .
+source venv/bin/activate && pip install -r requirements.txt
 ```
 
 ### uv
 
 ```bash
-uv sync
+uv venv venv
+source venv/bin/activate && uv pip install -r requirements.txt
 ```
 
 ## IDE
