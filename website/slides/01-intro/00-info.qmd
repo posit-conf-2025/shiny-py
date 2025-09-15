@@ -139,7 +139,6 @@ Need time or help
 
 4. Install all the packages:
 
-    * R: `renv::restore()`
     * Python: `uv sync`
 
 ## We're using Positron
