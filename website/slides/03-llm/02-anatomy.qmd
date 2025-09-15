@@ -223,7 +223,7 @@ For Claude Sonnet:
 ## Summary
 
 - A message is an object with:
-  - role (e.g., “system”, “user”, “assistant”)
+  - role (e.g., "system”, "user”, "assistant”)
   - content string
 - A chat conversation is a growing list of messages
 - The OpenAI chat API is a stateless HTTP endpoint: takes a list of messages as input, returns a new message as output
