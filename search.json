@@ -413,11 +413,11 @@
     "text": "Who you are\n\nHave you used:\n\nPython?\nDashboard?\nHTML, CSS, JavaScript?\nShiny (for R or Python)?"
   },
   {
-    "objectID": "slides/01-intro/01-welcome.html#goals-for-this-section",
-    "href": "slides/01-intro/01-welcome.html#goals-for-this-section",
+    "objectID": "slides/01-intro/01-welcome.html#goals-for-this-workshop",
+    "href": "slides/01-intro/01-welcome.html#goals-for-this-workshop",
     "title": "Welcome",
-    "section": "Goals for this section",
-    "text": "Goals for this section\n\nUnderstand the “whole game”/ big picture\nIdentify the resources that will support you\nDevelop comfort with debugging\nGenAI + LLMs in your dashboards and applications\nModules and Testing\nQ+A with the Shiny Developers"
+    "section": "Goals for this workshop",
+    "text": "Goals for this workshop\n\nUnderstand the “whole game”/ big picture\nIdentify the resources that will support you\nDevelop comfort with debugging\nGenAI + LLMs in your dashboards and applications\nModules and Testing\nQ+A with the Shiny Developers"
   },
   {
     "objectID": "setup.html",
@@ -531,7 +531,12 @@
     "href": "01-00-info.html",
     "title": "Welcome to posit::conf(2025)",
     "section": "",
-    "text": "View slides in full screen"
+    "text": "View slides in full screen",
+    "crumbs": [
+      "Setup",
+      "Introduction",
+      "Welcome to posit::conf(2025)"
+    ]
   },
   {
     "objectID": "01-01-welcome.html",
@@ -627,46 +632,95 @@
     "text": "FAQ\n\nWhat if I’m a complete beginner?\nYou should have a basic understanding of Python and be able to install packages with pip, do basic data manipulation, and draw plots.\n\n\nWhat if I’ve never built a Shiny app before?\nThis workshops doesn’t require any Shiny or web application experience. We’ll focus more on practical examples in the course. We do have additional resources for you to dive more into more Shiny details, but we will cover the basics needed to build larger and scalable applications.\n\n\nWhy should I learn Shiny if I already know Streamlit or Dash?\nWe believe that Shiny is the best framework for building data applications in Python. It’s reactive execution model means that you can build performant applications without explicitly caching data or managing application state. See this blog post for more on why we think that Shiny is worth learning.\n\n\nI already know Shiny for R, is this workshop for me?\nThe R and Python Shiny packages are quite similar, so some of the content in this workshop may be familiar to you. That said it’s a great opportunity to fill in missing pieces and ask question about Python best practices. We will also talk about Shiny modules and testing in this workshop, which will also be a precursor for you to learn more or incorporate Python Packaging to your Shiny applications."
   },
   {
-    "objectID": "slides/01-intro/00-info.html#conf",
-    "href": "slides/01-intro/00-info.html#conf",
+    "objectID": "slides/01-intro/00-info.html#welcome",
+    "href": "slides/01-intro/00-info.html#welcome",
     "title": "Welcome to posit::conf(2025)",
-    "section": "conf",
-    "text": "conf"
+    "section": "Welcome!",
+    "text": "Welcome!\n\nFind a seat where you can see the screen!\nUpdate your local copy of the workshop: https://posit-conf-2025.github.io/shiny-py/setup.html\nJoin the Discord: https://pos.it/conf\n\nwifi(\n  network=\"Posit Conf 2025\",\n  password=\"conf2025”\n)\nComputer Setup: https://posit-conf-2025.github.io/shiny-py/setup.html"
+  },
+  {
+    "objectID": "slides/01-intro/00-info.html#team",
+    "href": "slides/01-intro/00-info.html#team",
+    "title": "Welcome to posit::conf(2025)",
+    "section": "Team",
+    "text": "Team\n\nDaniel Chen\nLiz Nelson (Shiny)\nMichael Chow (Open-Source)"
+  },
+  {
+    "objectID": "slides/01-intro/00-info.html#code-of-conduct",
+    "href": "slides/01-intro/00-info.html#code-of-conduct",
+    "title": "Welcome to posit::conf(2025)",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\nPlease Review: &lt;posit.co/code-of-conduct&gt;\n\n💙 Treat everyone with respect\n🧡 Everyone should feel welcome and safe\n\nReporting:\n🗣️ any posit::conf staff member (t-shirt) or Info desk 📧 codeofconduct@posit.co"
+  },
+  {
+    "objectID": "slides/01-intro/00-info.html#meet-each-other",
+    "href": "slides/01-intro/00-info.html#meet-each-other",
+    "title": "Welcome to posit::conf(2025)",
+    "section": "Meet each other",
+    "text": "Meet each other\n\n👋 Hi, my name is …\n🐍 When it comes to Python, I’d call myself a… [newcomer, regular user, seasoned pro]\n📊 The first (or most recent) time I made a visualization in Python, it was…\n🌟 If I could build a Shiny app for anything (serious or silly), it would be…\n💡 A tool or library I recently discovered that made me go “wow” is…"
   },
   {
     "objectID": "slides/01-intro/00-info.html#wifi",
     "href": "slides/01-intro/00-info.html#wifi",
     "title": "Welcome to posit::conf(2025)",
-    "section": "wifi",
-    "text": "wifi"
+    "section": "WiFi",
+    "text": "WiFi\nwifi(\n  \"Posit Conf 2025\",\n  password=\"conf2025\"\n)"
   },
   {
-    "objectID": "slides/01-intro/00-info.html#bathrooms",
-    "href": "slides/01-intro/00-info.html#bathrooms",
+    "objectID": "slides/01-intro/00-info.html#positconf2025-things-to-know",
+    "href": "slides/01-intro/00-info.html#positconf2025-things-to-know",
     "title": "Welcome to posit::conf(2025)",
-    "section": "bathrooms",
-    "text": "bathrooms"
+    "section": "posit::conf(2025) Things to Know",
+    "text": "posit::conf(2025) Things to Know\n\n🚻 Gender-neutral bathroom: LL2 next to Chicago A\n🧘 Meditation/prayer room: LL2 Chicago A\n🤱 Lactation room: LL2 Chicago B\n🎉 Welcome reception: Tonight 5-7 pm, LL2 Grand Hall West\n🐠 Aquarium Night: Tomorrow 7-10 pm, Georgia Aquarium"
   },
   {
-    "objectID": "slides/01-intro/00-info.html#other-rooms",
-    "href": "slides/01-intro/00-info.html#other-rooms",
+    "objectID": "slides/01-intro/00-info.html#positconf2025-social-media",
+    "href": "slides/01-intro/00-info.html#positconf2025-social-media",
     "title": "Welcome to posit::conf(2025)",
-    "section": "other rooms",
-    "text": "other rooms"
+    "section": "posit::conf(2025) Social Media",
+    "text": "posit::conf(2025) Social Media\n\nRed lanyards available to those who don’t wish to be photographed\n#PositConf2025 for all things conf"
   },
   {
-    "objectID": "slides/01-intro/00-info.html#your-instructors",
-    "href": "slides/01-intro/00-info.html#your-instructors",
+    "objectID": "slides/01-intro/00-info.html#positconf2025-competition",
+    "href": "slides/01-intro/00-info.html#positconf2025-competition",
     "title": "Welcome to posit::conf(2025)",
-    "section": "your instructors",
-    "text": "your instructors"
+    "section": "posit::conf(2025) Competition",
+    "text": "posit::conf(2025) Competition\nMade with Shiny!\n\nSurvey: &lt;pos.it/funform2025&gt;\nDashboard: &lt;pos.it/funstats&gt;"
   },
   {
-    "objectID": "slides/01-intro/00-info.html#installation",
-    "href": "slides/01-intro/00-info.html#installation",
+    "objectID": "slides/01-intro/00-info.html#discord",
+    "href": "slides/01-intro/00-info.html#discord",
     "title": "Welcome to posit::conf(2025)",
-    "section": "installation",
-    "text": "installation"
+    "section": "Discord",
+    "text": "Discord\n\nGo to &lt;posit.co/conference&gt;\nClick Login\nFind and click the discord banner\nJoin us in #workshop-shiny-py"
+  },
+  {
+    "objectID": "slides/01-intro/00-info.html#schedule",
+    "href": "slides/01-intro/00-info.html#schedule",
+    "title": "Welcome to posit::conf(2025)",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\nTime\nActivity\n\n\n\n\n\nWelcome!\n\n\n\nIntroduction to Shiny\n\n\n\nYour first application\n\n\n\nbreak\n\n\n\nShiny’s reactivity programming model\n\n\n\nA more complex application\n\n\n\nDeploying your application to the web (for free!)\n\n\n\nbreak\n\n\n\nAnatomy of a conversation\n\n\n\n[Demo: 20 Questions][demo20q]\n\n\n\nYour first chat with an LLM\n\n\n\nAI Chat Interfaces\n\n\n\nbreak\n\n\n\nShiny modules\n\n\n\nTesting your shiny apps with playwright\n\n\n\nShiny Q+A\n\n\n\nEnd"
+  },
+  {
+    "objectID": "slides/01-intro/00-info.html#stickies",
+    "href": "slides/01-intro/00-info.html#stickies",
+    "title": "Welcome to posit::conf(2025)",
+    "section": "Stickies",
+    "text": "Stickies\n\n\n🟩\nAll good\nI’m done\n\n\n🟥\nNot great\nNeed time or help"
+  },
+  {
+    "objectID": "slides/01-intro/00-info.html#setup",
+    "href": "slides/01-intro/00-info.html#setup",
+    "title": "Welcome to posit::conf(2025)",
+    "section": "Setup",
+    "text": "Setup\n\nHead to &lt;posit-conf-2025.github.io/shiny-py/setup.html&gt;\nClone our workshop repo posit-conf-2025/shiny-py\nOpen the project in Positron\nInstall all the packages:\n\nPython: uv sync"
+  },
+  {
+    "objectID": "slides/01-intro/00-info.html#were-using-positron",
+    "href": "slides/01-intro/00-info.html#were-using-positron",
+    "title": "Welcome to posit::conf(2025)",
+    "section": "We’re using Positron",
+    "text": "We’re using Positron\n\n\n\n\nRStudio and VS Code are great, too!"
   },
   {
     "objectID": "slides/01-intro/02-intro-shiny.html#what-is-a-shiny-app",

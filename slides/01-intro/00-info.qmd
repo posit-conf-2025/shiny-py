@@ -1,5 +1,6 @@
 ---
 title: "Welcome to posit::conf(2025)"
+subtitle: "Shiny for Python"
 format:
   revealjs:
     footer: "posit::conf(2025) <https://github.com/posit-conf-2025/shiny-py>"
@@ -8,14 +9,144 @@ format:
     smaller: true
 ---
 
-## conf
+## Welcome!
 
-## wifi
+- Find a seat where you can see the screen!
 
-## bathrooms
+- Update your local copy of the workshop:
+<https://posit-conf-2025.github.io/shiny-py/setup.html>
 
-## other rooms
+- Join the Discord: <https://pos.it/conf>
 
-## your instructors
+```python
+wifi(
+  network="Posit Conf 2025",
+  password="conf2025”
+)
+```
 
-## installation
+Computer Setup: <https://posit-conf-2025.github.io/shiny-py/setup.html>
+
+## Team
+
+- Daniel Chen
+- Liz Nelson (Shiny)
+- Michael Chow (Open-Source)
+
+## Code of Conduct
+
+Please Review: <posit.co/code-of-conduct>
+
+* 💙 Treat everyone with respect
+* 🧡 Everyone should feel welcome and safe
+
+Reporting:
+
+🗣️ any posit::conf staff member (t-shirt) or Info desk
+📧 codeofconduct@posit.co
+
+## Meet each other
+
+* 👋 Hi, my name is …
+
+* 🐍 When it comes to Python, I’d call myself a… [newcomer, regular user, seasoned pro]
+
+* 📊 The first (or most recent) time I made a visualization in Python, it was…
+
+* 🌟 If I could build a Shiny app for anything (serious or silly), it would be…
+
+* 💡 A tool or library I recently discovered that made me go "wow” is…
+
+
+
+# About posit::conf(2025)
+
+## WiFi
+
+```python
+wifi(
+  "Posit Conf 2025",
+  password="conf2025"
+)
+```
+
+## posit::conf(2025) Things to Know
+
+* 🚻 Gender-neutral bathroom: LL2 next to Chicago A
+
+* 🧘 Meditation/prayer room: LL2 Chicago A
+
+* 🤱 Lactation room: LL2 Chicago B
+
+* 🎉 Welcome reception: Tonight 5-7 pm, LL2 Grand Hall West
+
+* 🐠 Aquarium Night: Tomorrow 7-10 pm, Georgia Aquarium
+
+## posit::conf(2025) Social Media
+
+* Red lanyards available to those who don’t wish to be photographed
+
+* `#PositConf2025` for all things conf
+
+## posit::conf(2025) Competition
+
+Made with Shiny!
+
+- Survey: <pos.it/funform2025>
+- Dashboard: <pos.it/funstats>
+
+# About this workshop
+
+# 🏡 posit-conf-2025.github.io/shiny-py
+
+## Discord
+
+1. Go to <posit.co/conference>
+2. Click Login
+3. Find and click the discord banner
+4. Join us in #workshop-shiny-py
+
+## Schedule
+
+{{< include /includes/schedule.qmd >}}
+
+## Stickies {.center .text-center}
+
+::: {.easy-columns style="font-size: 1.5em;"}
+::: {.flex .flex-column .items-center .justify-center .text-center}
+[🟩]{style="font-size: 2em"}
+
+All good \
+I'm done
+:::
+::: {.flex .flex-column .items-center .justify-center .text-center}
+[🟥]{style="font-size: 2em"}
+
+Not great \
+Need time or help
+:::
+:::
+
+# Computering {.middle .text-center}
+
+## Setup
+
+1. Head to <posit-conf-2025.github.io/shiny-py/setup.html>
+
+2. Clone our workshop repo `posit-conf-2025/shiny-py`
+
+3. Open the project in **Positron**
+
+4. Install all the packages:
+
+    * Python: `uv sync`
+
+## We're using Positron
+
+::: text-center
+![](/img/positron-astropy.png){style="max-height: min(650px, 80vh)"}
+:::
+
+::: footer
+RStudio and VS Code are great, too!
+:::

@@ -14,8 +14,6 @@ If you haven't done so, please have your computer set up for this workshop:
 
 <https://posit-conf-2025.github.io/shiny-py/setup.html>
 
-<!-- TODO: update qr code -->
-
 ![](/img/qr-setup.png){width="500px" fig-align="center"}
 
 ## Today's goal
@@ -33,7 +31,7 @@ from the simple to the mission critical.
   - Shiny (for R or Python)?
 :::
 
-## Goals for this section {.incremental}
+## Goals for this workshop {.incremental}
 
 1.  Understand the "whole game"/ big picture
 2.  Identify the resources that will support you
