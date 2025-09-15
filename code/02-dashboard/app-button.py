@@ -36,7 +36,6 @@ with ui.sidebar(open="desktop"):
         ],
     )
     ui.input_action_button("action_button", "Reset filter")
-    ui.input_action_button("animate", "Animate Slider")
 
 
 @reactive.calc
@@ -64,19 +63,6 @@ def reset_filters_button():
             "Dinner",
         ],
     )
-
-
-@reactive.effect
-@reactive.event(input.animate)
-def reset_filters_button():
-    lower = ceil(tips.total_bill.min())
-    upper = floor(tips.total_bill.max())
-
-    for i in range(lower, upper):
-        ui.update_slider(
-            "slider",
-            animate=True,
-        )
 
 
 # body of application
