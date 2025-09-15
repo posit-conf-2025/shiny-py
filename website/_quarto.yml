@@ -34,6 +34,7 @@ website:
       contents:
         - section: "Introduction"
           contents:
+            - href: 01-00-info.qmd
             - href: 01-01-welcome.qmd
             - href: 01-02-intro-shiny.qmd
             - href: 01-03-first-app.qmd

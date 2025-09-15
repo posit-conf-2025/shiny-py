@@ -1,0 +1,19 @@
+| Time  | Activity                                                     |
+| :---- | :----------------------------------------------------------- |
+|  | [Welcome!](01-01-welcome.qmd)                                |
+|  | [Introduction to Shiny](01-02-intro-shiny.qmd)               |
+|  | [Your first application](01-03-first-app.qmd)                |
+|  | *break*                                                      |
+|  | [Shiny's reactivity programming model](02-01-reactivity.qmd) |
+|  | [A more complex application](02-02-dashboard.qmd)            |
+|  | [Deploying your application to the web (for free!)](02-03-publish.qmd)        |
+|  | *break*                                                      |
+|  | [Anatomy of a conversation](03-02-anatomy.qmd)               |
+|  | [Demo: 20 Questions][demo20q]                                |
+|  | [Your first chat with an LLM](03-03-first.qmd)               |
+|  | [AI Chat Interfaces](03-04-chatbot.qmd)                      |
+|  | *break*                                                      |
+|  | [Shiny modules](04-01-modules.qmd)                           |
+|  | [Testing your shiny apps with playwright](04-02-testing.qmd) |
+|  | Shiny Q+A                                                    |
+|  | End                                                          |
