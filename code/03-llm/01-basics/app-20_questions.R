@@ -7,7 +7,7 @@ library(bslib)
 library(dotenv)
 library(promises)
 # Load environment variables for API keys
-#load_dot_env("../../../.env")
+load_dot_env("../../../.env")
 
 # Define UI
 ui <- page_fluid(

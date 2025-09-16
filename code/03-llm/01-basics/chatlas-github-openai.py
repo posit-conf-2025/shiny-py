@@ -3,7 +3,7 @@ import os
 from chatlas import ChatGithub
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(".env")
 
 chat = ChatGithub(
     model="gpt-4.1",
