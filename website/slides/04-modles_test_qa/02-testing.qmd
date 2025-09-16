@@ -39,8 +39,9 @@ def test_index_intersection_all():
         to_intersect,
         default=default,
     )
-    assert (calculated == expected).all()
-    assert calculated.equals(expected)
+
+assert (calculated == expected).all()
+assert calculated.equals(expected)
 ```
 
 ## Playwright Example

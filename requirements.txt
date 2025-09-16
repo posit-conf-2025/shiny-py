@@ -17,6 +17,8 @@ pillow
 playwright
 plotly
 plotnine
+pytest
+pytest-playwright
 python-dotenv
 querychat
 requests
