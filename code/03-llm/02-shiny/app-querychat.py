@@ -6,6 +6,7 @@ from shiny.express import render
 # data -----
 titanic = load_dataset("titanic")
 
+
 # chatbot setup -----
 def create_chat_callback(system_prompt):
     return ChatAnthropic(system_prompt=system_prompt)
@@ -24,6 +25,7 @@ chat = querychat.server("chat", querychat_config)
 
 # querychat UI
 querychat.sidebar("chat")
+
 
 # querychat filtered dataframe
 @render.data_frame
