@@ -6,6 +6,8 @@ library(ellmer)
 library(bslib)
 library(dotenv)
 library(promises)
+# Load environment variables for API keys
+#load_dot_env("../../../.env")
 
 # Define UI
 ui <- page_fluid(
@@ -121,7 +123,7 @@ server <- function(input, output, session) {
 
   # Initialize both chat models
   chat_models <- list(
-    chatlas::chat_openai(
+    ellmer::chat_openai(
       system_prompt = system_prompt,
       model = "gpt-4o"
     ),
