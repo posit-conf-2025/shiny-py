@@ -2,7 +2,7 @@ altair
 anthropic
 anthropic[bedrock]
 boto3
-chatlas
+chatlas>=0.13.1
 faicons
 ipykernel
 jupyter
